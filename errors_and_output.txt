@@ -1,0 +1,14 @@
+No model was supplied, defaulted to t5-small and revision d769bba (https://huggingface.co/t5-small).
+Using a pipeline without specifying a model name and revision in production is not recommended.
+2023-09-21 16:26:59.960329: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+All PyTorch model weights were used when initializing TFT5ForConditionalGeneration.
+
+All the weights of TFT5ForConditionalGeneration were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFT5ForConditionalGeneration for predictions without further training.
+No model was supplied, defaulted to distilbert-base-uncased-finetuned-sst-2-english and revision af0f99b (https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).
+Using a pipeline without specifying a model name and revision in production is not recommended.
+All PyTorch model weights were used when initializing TFDistilBertForSequenceClassification.
+
+All the weights of TFDistilBertForSequenceClassification were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFDistilBertForSequenceClassification for predictions without further training.
